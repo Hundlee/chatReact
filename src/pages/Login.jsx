@@ -24,7 +24,7 @@ const Login = () => {
     return (
         <div className="formContainer">
             <div className="formWrapper">
-                <span className="logo">Hundlee Chat</span>
+                <span className="logo">Chat React</span>
                 <span className="title">Login</span>
                 <form onSubmit={handleSubmit}>
                     <input type="email" placeholder="Email" />

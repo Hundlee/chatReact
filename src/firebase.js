@@ -5,12 +5,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDbenG9d91XU6Rl-qc9xhUkBBehGSBTwz4",
-    authDomain: "testechat-a87f9.firebaseapp.com",
-    projectId: "testechat-a87f9",
-    storageBucket: "testechat-a87f9.appspot.com",
-    messagingSenderId: "113286368834",
-    appId: "1:113286368834:web:9e7c96b850a3c9748a27db",
+    apiKey: "AIzaSyAbiAyroASkRedsKFa2LYjp6qXDWA4MSJA",
+    authDomain: "testechatreact.firebaseapp.com",
+    projectId: "testechatreact",
+    storageBucket: "testechatreact.appspot.com",
+    messagingSenderId: "1084951303174",
+    appId: "1:1084951303174:web:a38bdc30d89feac98e5f87",
+    measurementId: "G-DSWXZ8CXDB",
 };
 
 export const app = initializeApp(firebaseConfig);
